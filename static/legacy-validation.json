@@ -1,0 +1,145 @@
+{
+  "checked_at": "2026-09-30T03:26:52.322332+00:00",
+  "tool": "Arelle",
+  "version": "2.45.3",
+  "samples": [
+    {
+      "sample": "2330-2016Q1",
+      "ticker": "2330",
+      "source_url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=2330&year=2016&season=1&report_id=C",
+      "source_sha256": "28139ae01c5a1262bc48c7e87e4c94a1d4cd9c61df31cf85db6ec71904eb6c26",
+      "taxonomy_url": "https://mopsov.twse.com.tw/nas/taxonomy/tifrs-20150331.zip",
+      "taxonomy_sha256": "c0c9724cbce8b9391198a526afa803bde633abead3d0f5d9fb999b46307098a1",
+      "modes": [
+        {
+          "mode": "none",
+          "status": "issues_found",
+          "errors": {
+            "xmlSchema:attributesExtraneous": 18,
+            "xmlSchema:elementOccurrencesError": 35,
+            "xmlSchema:elementUnexpected": 12,
+            "xbrl.4.6.3:extraneousPrecisionDecimals": 6,
+            "xbrldie:PrimaryItemDimensionallyInvalidError": 48,
+            "xbrldie:DefaultValueUsedInInstanceError": 6
+          },
+          "warnings": {},
+          "completion_message": true,
+          "log_file": "reports\\legacy-pilot\\arelle\\20260930T032453Z\\2330-2016Q1-none.xml",
+          "log_sha256": "1bd749d749997a7ca1ff30a6c5f05c0c5184375b2ac5b914d48281d473e734ce"
+        },
+        {
+          "mode": "xbrl21",
+          "status": "execution_failed",
+          "errors": {
+            "xmlSchema:attributesExtraneous": 18,
+            "xmlSchema:elementOccurrencesError": 35,
+            "xmlSchema:elementUnexpected": 12,
+            "xbrl.4.6.3:extraneousPrecisionDecimals": 6,
+            "xbrldie:PrimaryItemDimensionallyInvalidError": 48,
+            "xbrldie:DefaultValueUsedInInstanceError": 6,
+            "exception:AttributeError": 1
+          },
+          "warnings": {},
+          "completion_message": true,
+          "log_file": "reports\\legacy-pilot\\arelle\\20260930T032453Z\\2330-2016Q1-xbrl21.xml",
+          "log_sha256": "621778ea453a8466104adf3506a5708aa3c14fd1eb99faa774ad00142253a9fc"
+        }
+      ],
+      "production_imported": false
+    },
+    {
+      "sample": "2317-2017Q4",
+      "ticker": "2317",
+      "source_url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=2317&year=2017&season=4&report_id=C",
+      "source_sha256": "c35953e158f9b5e4fff0b27ce8b348320c97707344e625c446d31cfbcc0b0d51",
+      "taxonomy_url": "https://mopsov.twse.com.tw/nas/taxonomy/tifrs-20170331.zip",
+      "taxonomy_sha256": "2c81bc6ebfaf304b28eeb0e69833ba7ae086a6978b4a1723ce9e92c9ee42b9a1",
+      "modes": [
+        {
+          "mode": "none",
+          "status": "issues_found",
+          "errors": {
+            "xmlSchema:attributesExtraneous": 24,
+            "xmlSchema:elementOccurrencesError": 330,
+            "xmlSchema:elementUnexpected": 28,
+            "xbrl.4.6.3:extraneousPrecisionDecimals": 12,
+            "xbrldie:PrimaryItemDimensionallyInvalidError": 48,
+            "xbrldie:DefaultValueUsedInInstanceError": 6
+          },
+          "warnings": {},
+          "completion_message": true,
+          "log_file": "reports\\legacy-pilot\\arelle\\20260930T032453Z\\2317-2017Q4-none.xml",
+          "log_sha256": "5f6fe1aee6694b079bd100a260482c01ba0d344cdc23effc9d1b19ae76728ee5"
+        },
+        {
+          "mode": "xbrl21",
+          "status": "execution_failed",
+          "errors": {
+            "xmlSchema:attributesExtraneous": 24,
+            "xmlSchema:elementOccurrencesError": 330,
+            "xmlSchema:elementUnexpected": 28,
+            "xbrl.4.6.3:extraneousPrecisionDecimals": 12,
+            "xbrldie:PrimaryItemDimensionallyInvalidError": 48,
+            "xbrldie:DefaultValueUsedInInstanceError": 6,
+            "exception:AttributeError": 1
+          },
+          "warnings": {},
+          "completion_message": true,
+          "log_file": "reports\\legacy-pilot\\arelle\\20260930T032453Z\\2317-2017Q4-xbrl21.xml",
+          "log_sha256": "2d8e2e01e07055d871b6e71aa98947026693149abd9673b7db4c269eaead612a"
+        }
+      ],
+      "production_imported": false
+    },
+    {
+      "sample": "1301-2018Q2",
+      "ticker": "1301",
+      "source_url": "https://mopsov.twse.com.tw/server-java/FileDownLoad?functionName=t164sb01&step=9&co_id=1301&year=2018&season=2&report_id=C",
+      "source_sha256": "d8e74708dcf16ed6986f52506c8aebd81060f2cda3d6d2948402ff38ebcf8cb4",
+      "taxonomy_url": "https://mopsov.twse.com.tw/nas/taxonomy/tifrs-20180331.zip",
+      "taxonomy_sha256": "0d50d42e6502e687d70df14d68a417628b14298061013e830f58a70358349635",
+      "modes": [
+        {
+          "mode": "none",
+          "status": "issues_found",
+          "errors": {
+            "xmlSchema:attributesExtraneous": 15,
+            "xmlSchema:elementOccurrencesError": 12,
+            "xmlSchema:elementUnexpected": 26,
+            "xbrl.4.6.3:extraneousPrecisionDecimals": 9,
+            "xbrldie:DefaultValueUsedInInstanceError": 6,
+            "xml.3.3.1:idMustBeUnique": 2
+          },
+          "warnings": {},
+          "completion_message": true,
+          "log_file": "reports\\legacy-pilot\\arelle\\20260930T032453Z\\1301-2018Q2-none.xml",
+          "log_sha256": "030fd08e0d041b7a6d91ffbc79be7d0e77afb7dbba5903e54f7c28eb9303d830"
+        },
+        {
+          "mode": "xbrl21",
+          "status": "execution_failed",
+          "errors": {
+            "xmlSchema:attributesExtraneous": 15,
+            "xmlSchema:elementOccurrencesError": 12,
+            "xmlSchema:elementUnexpected": 26,
+            "xbrl.4.6.3:extraneousPrecisionDecimals": 9,
+            "xbrldie:DefaultValueUsedInInstanceError": 6,
+            "xml.3.3.1:idMustBeUnique": 2,
+            "exception:AttributeError": 1
+          },
+          "warnings": {},
+          "completion_message": true,
+          "log_file": "reports\\legacy-pilot\\arelle\\20260930T032453Z\\1301-2018Q2-xbrl21.xml",
+          "log_sha256": "dfc94bce725ee24515f513fb5232e23271cebfe1c0d63f030fa62a460c8e2b08"
+        }
+      ],
+      "production_imported": false
+    }
+  ],
+  "limitations": [
+    "只有三份舊版樣本，不代表整個年度或公司。",
+    "來源格式錯誤與工具例外不等於公司造假。",
+    "本批未匯入正式財報資料庫，未改變缺口狀態。",
+    "分類標準 ZIP 有來源與指紋；未重編財報或略過錯誤。"
+  ]
+}

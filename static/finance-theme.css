@@ -1,0 +1,34 @@
+/* Shared midnight-blue and champagne theme. Financial artwork is decorative. */
+:root{color-scheme:dark;--ink:#edf3fd;--muted:#a5b6d0;--accent:#8bbcff;--line:#a5bfe329;--nav:#0a1931;--gold:#dfc18b;background:#070f20;color:var(--ink)}
+body{background:#070f20;isolation:isolate}
+body:before{content:'';position:fixed;inset:0;z-index:-2;pointer-events:none;background:linear-gradient(90deg,#071020dc,#09172bb0 45%,#0710208c),url('images/market-blue.png') center/cover no-repeat}
+body:after{content:'';position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(#8bbcff05 1px,transparent 1px),linear-gradient(90deg,#8bbcff05 1px,transparent 1px);background-size:72px 72px}
+.workspace{min-height:100vh;background:linear-gradient(180deg,#0b183b25,transparent 65%)}
+.rail{background:linear-gradient(180deg,#09162af5 45%,#0b1e38bf),url('images/finance-research-blue.png') 63% bottom/auto 480px no-repeat;border-right:1px solid #d9bd8240;box-shadow:10px 0 40px #0002}
+.brand{color:#f5e8ce}.brandmark{color:#172742;background:linear-gradient(135deg,#f1dbae,#b99152);box-shadow:0 3px 18px #d6b57320}.brand small{color:#b8b4a9}
+.rail nav a{color:#aebed6;border:1px solid transparent}.rail nav a:hover,.rail nav a.active{color:#f1dbae;background:linear-gradient(90deg,#b9965530,#234e7830);border-color:#d6b57338}
+.rail-bottom p{color:#e8d5b1}.rail-bottom small{color:#bdc9db}.tag.dark{color:#e9d2a7;background:#a3814026;border:1px solid #c2a36a40}
+.topbar{background:#09172cdb;border-bottom-color:#d6b57330;color:#c0cde0;backdrop-filter:blur(18px)}.topbar a{color:#e2c997}
+h1,h2,h3{color:#f2f5fc}.heading h1{letter-spacing:.2px}.eyebrow{color:#d8bb87}.muted,.metadata,.heading label,.quick span,.chart-hint,.section-note,.empty,footer{color:var(--muted)}
+.finance-hero{border:1px solid #e0c28b55;box-shadow:0 18px 50px #0004;background:#0b1d38}.finance-hero .eyebrow{color:#e6c992}.finance-hero h2{color:#fff2d9}.finance-hero p{color:#cedbef}.finance-hero:before{content:'';position:absolute;top:0;left:30px;width:92px;height:2px;background:linear-gradient(90deg,#f2d699,transparent)}
+.search,.chat-input{background:#0b1d35;border-color:#829fc551}.search input,.chat-input input{color:#eff4fc;background:transparent}.chat-input input::placeholder{color:#a1b2ce}
+.search button,.chat-input button,.primary{color:#112139;background:linear-gradient(135deg,#efd7a6,#c7a16a);font-weight:600;box-shadow:0 3px 14px #0002}
+.quick button,.outline,.suggestions button{background:#102743e8;color:#c8d9f1;border-color:#839dc642}.quick button:hover,.outline:hover,.suggestions button:hover{background:#1b3656;border-color:#dbbc7e;color:#f4dfb7}
+.code{background:#1d3653;color:#e9c992;border:1px solid #bd9e623d}.tag{background:#25487388;color:#b8d6ff;border:1px solid #8fb7ec2b}.tag.amber{background:#49371ee6;color:#f3d399;border-color:#ca9e5659}
+.panel,.metric{background:linear-gradient(135deg,#132b48f2,#0c1c32ed);border-color:#9db8e030;box-shadow:0 12px 32px #0003,inset 0 1px #ffffff07;backdrop-filter:blur(14px)}
+.panel{border-top-color:#d6b57364}.panel-header .eyebrow{color:#cfb886}.metric{position:relative;overflow:hidden}.metric:after{content:'';position:absolute;right:-18px;top:-18px;width:66px;height:66px;border-radius:50%;border:1px solid #dfc18b22;box-shadow:0 0 0 7px #dfc18b08,0 0 0 14px #dfc18b05;pointer-events:none}.metric strong{color:#f1d8a7}.metric .label{color:#bdcce2}.metric small{color:#a6b7cf}
+.summary{background:linear-gradient(110deg,#274368ed,#132a47ed);border-color:#bb9a605e;box-shadow:0 8px 24px #0002}.summary-symbol{color:#e9c789}.summary-title{color:#f1dfbd}.summary-title span{color:#b0c3dc}.summary p{color:#d2dff0}
+.tabs button{color:#acbdd6}.tabs button[aria-selected=true]{color:#f0d398}.tabs button[aria-selected=true]:after{background:#d7b777}.bar-track{background:#ffffff0a}.bar-fill{background:linear-gradient(90deg,#2d67b2,#8ebdff)}.bar-item:nth-child(2) .bar-fill{background:linear-gradient(90deg,#936e36,#ddbf86)}.bar-item:nth-child(3) .bar-fill{background:linear-gradient(90deg,#4e668d,#acbbdc)}
+.check summary,details>summary{color:#d3e0f2}.check p,.source p{color:#aebfd7}.check code{color:#c9d7ea;background:#07182d}.check summary:after{color:#c4af89}.check-icon{color:#c0d4ef;background:#24405e}.check-icon.pass{color:#a8dfc1;background:#1c473e}.check-icon.missing,.check-icon.review{color:#f2d397;background:#503d23}.check summary .metadata{color:#b8c6dc}.source a,.text-button,.text-link,#method a,.table-scroll a{color:#a6caff}
+th{background:#102540;color:#d4e2f6}td{color:#bdcde4}details table{color:#bdcde4}.source details{scrollbar-color:#4c6687 #0c1c32}
+.assistant-art{border:1px solid #d1b47644}.assistant-icon{background:linear-gradient(135deg,#e3c793,#bc945b);color:#10233f}.mode-label{background:#27436566;color:#c0d1e8}.workflow{border-color:#617b9959}.step{color:#afc1d9}.step:before{background:#142b47;color:#d9b777}.step.done:before{color:#aedac7}.assistant-bubble{background:#213c5a;color:#d7e3f4}.user-bubble{background:#314f78;color:#f0f5ff}.bubble small,.assistant-foot{color:#a8bbd5}
+.notice{background:#3b301eea;border-color:#d4b47760;color:#f1d9ad}footer{border-top-color:#d6b57340}.image-caption{color:#e8d3b0;background:#081528bd}
+select{background:#10243d;color:#e0eafa;border-color:#7896bd59}option{background:#10243d;color:#e0eafa}.chart-empty{color:#afc2df}.legend{color:#b8cbe5}.primary-line:before{background:#8bbcff}.blue-line:before{background:#dfc18b}.line-chart text{fill:#b5c7e2}.line-chart line{stroke:#9fb8da24}
+button:focus-visible,a:focus-visible,summary:focus-visible,select:focus-visible{outline-color:#e8c991}input:focus{outline-color:#8bbcff}
+@media(max-width:620px){body:before{background-position:64% center}.rail{background:#09172df5;border-right:0;border-bottom:1px solid #d9bd8240}.panel,.metric{backdrop-filter:none}.finance-hero{box-shadow:0 12px 30px #0003}.topbar{backdrop-filter:none}}
+@media(prefers-reduced-transparency:reduce){.panel,.metric,.topbar{background:#10223b;backdrop-filter:none}}
+/* Keep the working controls first; artwork never contributes layout height. */
+.heading-backdrop{padding:20px 24px;border:1px solid #d6b57340;border-radius:12px;background-color:#0d213b;background-image:linear-gradient(90deg,#0d213bf5 15%,#0d213bcc 65%,#0d213bd9),url('images/market-blue.png');background-size:cover;background-position:center,center 57%;gap:20px}
+.heading-backdrop--research{background-image:linear-gradient(90deg,#0d213bf5 15%,#0d213bcc 65%,#0d213bd9),url('images/finance-research-blue.png')}
+.heading-backdrop>div{min-width:0}.heading-backdrop form{flex-shrink:0}.heading-backdrop .muted{color:#bdcce2}
+@media(max-width:620px){.heading-backdrop{padding:16px}.heading-backdrop h1{font-size:24px}.heading-backdrop form{margin-top:14px}.heading-backdrop p{font-size:13px}}
